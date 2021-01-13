@@ -1,0 +1,66 @@
+GRAPHIC ERA DEEMED TO BE University
+ 
+
+MINI PROJECT 1:
+TOPIC: IMAGE PROCESSING 
+TOPIC SENTENCE: Input an image, input an angle and rotate the image by the angle given and display the image.
+BY:  VARNIKA CHAUHAN                          
+UNIVERSITY ROLL NO.:  2014939
+ADMISSION NO.: 19022252
+ENROLMENT NO.:  GE-192014939
+       
+ 
+INTRODUCTION
+Image Processing is a method to perform some operations on an image, in order to get an enhanced image or to extract some useful information from it. It is a type of signal processing in which input is an image and output may be image or characteristics/features associated with that image.
+Image Processing is among rapidly growing technologies and has many applications also. Some of its applications are:
+•	Face Recognition,
+•	Counting: like counting the number of people, objects, vehicles, etc...
+•	Object Recognition,
+•	Anomaly detection.
+Image Processing basically includes the following three steps:
+•	Importing the image via image acquisition tools;
+•	Analysing and manipulating the image;
+•	Output in which result can be altered image or report that is based on image analysis.
+
+
+
+
+
+Technology and software used
+
+•	MICROSOFT VISUAL STUDIO: It is an integrated development environment (IDE). It is used to develop computer programs, as well as websites, web apps, web services and mobile apps. It includes a code editor supporting IntelliSense (the code completion product) as well as code refactoring.
+
+•	OpenCV: OPEN SOURCE COMPUTER VISION
+	Computer vision: Extracting useful information from images, videos, texts, etc…
+	Available for languages like C++, Python, JAVA etc.
+
+•	HEADER FILES USED:
+	#include<opencv2/opencv.hpp>
+	#include<iostream>
+	#include<string.h>
+
+•	NAMESPACES USED:
+	using namespace std;
+	using namespace cv;
+
+•	FUNCTIONS AND FUNCTIONAL ELEMENTS USED:
+	imread()
+	empty()
+	namedWindow()
+	imshow()
+	waitKey(0)
+	destroyWindow()
+	warpAffine()
+	getRotationMatrix2D()
+	Point2f 
+
+•	ABOUT THE FUNCTIONS:
+	imread() : This function returns the image data in the array. It reads the image from the file specified by filename.
+	empty() : This function checks whether the image specified by the user exists or not.
+	namedWindow() : This function creates a new window which can open the image.
+	imshow()  : This function will display the image in that new window created by namedWindow() function.
+	waitKey(0) : This function waits for the user to enter a key and then destroy the window. Without this function the image will be displayed only for a while and th window will be destroyed simultaneously.
+	destroyWindow() : This function destroys the window we created to view the image as soon as the user press the any key.
+	warpAffine() : It is the size of the output image, which should be in the form of width and height. Here width is the number of columns and height is the number of rows.
+	GetRotationMatrix2D() : This function is used to rotate the matrix image in 2D form.
+	Point2f : It creates a function that contains the specified x and y-coordinates.
